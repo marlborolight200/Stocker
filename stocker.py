@@ -281,7 +281,7 @@ class Stocker():
     # Remove weekends from a dataframe
     def remove_weekends(self, dataframe):
         
-        # Reset index to use loc
+        # Reset index to use ix
         dataframe = dataframe.reset_index(drop=True)
         
         weekends = []
